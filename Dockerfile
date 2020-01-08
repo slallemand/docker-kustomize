@@ -6,4 +6,4 @@ RUN wget -qO - https://github.com/kubernetes-sigs/kustomize/releases/download/ku
     tar xfz - && \
     mv kustomize /usr/local/bin/kustomize
 
-ADD crds /etc/kustomize/
+ADD crds /etc/kustomize/crds/
